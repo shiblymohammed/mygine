@@ -63,7 +63,7 @@ export default function HeroSection() {
         {/* NEW TYPOGRAPHY OVERLAY */}
         <div style={{
           position: 'absolute',
-          top: '20%',
+          top: '15%',
           left: '0',
           width: '100%',
           height: '80%',
@@ -77,49 +77,36 @@ export default function HeroSection() {
           
           {/* Malayalam Heading Container */}
           <div style={{ position: 'relative', textAlign: 'center' }}>
-            {/* Top Right Crown Decoration */}
-            <svg width="60" height="60" viewBox="0 0 100 100" fill="none" stroke="#FFD84D" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" style={{ position: 'absolute', top: '-15%', right: '-15%', transform: 'rotate(15deg)' }}>
-              <path d="M 20 50 L 30 20 L 50 40 L 70 20 L 80 50 Z" />
-            </svg>
-            
-            {/* Top Motion Lines */}
-            <svg width="40" height="40" viewBox="0 0 100 100" fill="none" stroke="#064E3B" strokeWidth="6" strokeLinecap="round" style={{ position: 'absolute', top: '-10%', left: '20%' }}>
-              <line x1="20" y1="80" x2="30" y2="50" />
-              <line x1="70" y1="80" x2="60" y2="50" />
-            </svg>
+
             
             {/* Line 1: വിരിക്കാം */}
-            <div style={{ fontFamily: 'Malabar, sans-serif', fontSize: '6vw', color: '#022C22', lineHeight: '1.2', transform: 'rotate(-2deg)' }}>
+            <div style={{ fontFamily: 'Malabar, sans-serif', fontSize: '7vw', fontWeight: 'bold', color: '#022C22', lineHeight: '1', transform: 'rotate(-2deg)' }}>
               വിരിക്കാം
             </div>
             
             {/* Line 2: ഇരിക്കാം with highlight */}
-            <div style={{ position: 'relative', display: 'inline-block', transform: 'rotate(1deg)' }}>
-              <div style={{ position: 'absolute', bottom: '15%', left: '-5%', width: '110%', height: '30%', backgroundColor: '#FFD84D', zIndex: -1, borderRadius: '4px', opacity: 0.9 }}></div>
-              <div style={{ fontFamily: 'Malabar, sans-serif', fontSize: '7vw', color: '#022C22', lineHeight: '1.1' }}>
-                ഇരിക്കാം
+            <div style={{ marginTop: '-1.5vw' }}>
+              <div style={{ position: 'relative', display: 'inline-block', transform: 'rotate(1deg)' }}>
+                <div style={{ position: 'absolute', bottom: '15%', left: '-5%', width: '110%', height: '30%', backgroundColor: '#FFD84D', zIndex: -1, borderRadius: '4px', opacity: 0.9 }}></div>
+                <div style={{ fontFamily: 'Malabar, sans-serif', fontSize: '7vw', fontWeight: 'bold', color: '#022C22', lineHeight: '1' }}>
+                  ഇരിക്കാം
+                </div>
               </div>
             </div>
 
-            {/* Right Motion Lines */}
-            <svg width="50" height="50" viewBox="0 0 100 100" fill="none" stroke="#064E3B" strokeWidth="6" strokeLinecap="round" style={{ position: 'absolute', right: '-15%', top: '40%' }}>
-              <line x1="20" y1="20" x2="45" y2="45" />
-              <line x1="10" y1="70" x2="35" y2="55" />
-            </svg>
+
 
             {/* Line 3: സാധിക്കാം with highlight */}
-            <div style={{ position: 'relative', transform: 'rotate(-1deg)', marginTop: '-1vw' }}>
-              <div style={{ position: 'absolute', bottom: '10%', left: '-2%', width: '104%', height: '25%', backgroundColor: '#FFD84D', zIndex: -1, borderRadius: '4px', opacity: 0.9 }}></div>
-              <div style={{ fontFamily: 'Malabar, sans-serif', fontSize: '8vw', color: '#022C22', lineHeight: '1.1' }}>
-                സാധിക്കാം
+            <div style={{ marginTop: '-1.5vw' }}>
+              <div style={{ position: 'relative', display: 'inline-block', transform: 'rotate(-1deg)' }}>
+                <div style={{ position: 'absolute', bottom: '10%', left: '-2%', width: '104%', height: '25%', backgroundColor: '#FFD84D', zIndex: -1, borderRadius: '4px', opacity: 0.9 }}></div>
+                <div style={{ fontFamily: 'Malabar, sans-serif', fontSize: '7vw', fontWeight: 'bold', color: '#022C22', lineHeight: '1' }}>
+                  സാധിക്കാം
+                </div>
               </div>
             </div>
 
-            {/* Left Motion Lines */}
-            <svg width="50" height="50" viewBox="0 0 100 100" fill="none" stroke="#064E3B" strokeWidth="6" strokeLinecap="round" style={{ position: 'absolute', left: '-20%', top: '50%' }}>
-              <line x1="80" y1="20" x2="55" y2="45" />
-              <line x1="90" y1="70" x2="65" y2="55" />
-            </svg>
+
           </div>
 
           {/* Subheading & Smile */}
@@ -143,7 +130,7 @@ export default function HeroSection() {
           </div>
 
           {/* Button Row */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '2rem', marginTop: '4rem', transform: 'rotate(-1deg)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '2rem', marginTop: '2.5rem', transform: 'rotate(-1deg)' }}>
             <button style={{ 
               backgroundColor: '#022C22', 
               color: '#FFFDF7', 
